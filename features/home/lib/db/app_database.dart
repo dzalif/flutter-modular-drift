@@ -1,5 +1,7 @@
 import 'dart:io';
 
+import 'package:auth/dao/auth_dao.dart';
+import 'package:auth/table/auth_table.dart';
 import 'package:drift/drift.dart';
 import 'package:drift/native.dart';
 import 'package:home/dao/restaurant_dao.dart';
@@ -11,10 +13,12 @@ part 'app_database.g.dart';
 
 @DriftDatabase(
   tables: [
-    RestaurantTable
+    RestaurantTable,
+    AuthTable
   ],
   daos: [
-    RestaurantDao
+    RestaurantDao,
+    AuthDao
   ]
 )
 class AppDatabase extends _$AppDatabase {

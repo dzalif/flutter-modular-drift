@@ -1,4 +1,4 @@
-name: home
+name: auth
 description: A new Flutter package.
 version: 0.0.1
 publish_to: none
@@ -11,8 +11,8 @@ dependencies:
     sdk: flutter
   dependencies:
     path: ../../libraries/dependencies
-  auth:
-    path: ../../features/auth
+  home:
+    path: ../../features/home
 
 dev_dependencies:
   flutter_test:

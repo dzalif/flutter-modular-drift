@@ -1,0 +1,8 @@
+targets:
+  $default: {}
+  drift:
+    auto_apply_builders: false
+    dependencies: []
+    builders:
+      drift_dev:analyzer:
+        enabled: true

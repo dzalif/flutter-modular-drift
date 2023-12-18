@@ -1,0 +1,4 @@
+targets:
+  $default:
+    dependencies:
+      - auth:drift
